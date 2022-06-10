@@ -39,7 +39,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 }
 
 .card-img, .mountains{
-    width: 100%;
+    width: 100;
 }
 
 .logo {
@@ -76,6 +76,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
+
 
 .rivers-card {
     grid-column: 2/4;
@@ -156,7 +157,7 @@ nav a{
     text-decoration: none;
 }
 
-hero-msg {
+#hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
@@ -218,9 +219,6 @@ footer a:hover {
     color: black;
 }
 
-footer p {
-    size: 1.2em; 
-}
 
 footer {
     background-color: #a8dadc;
