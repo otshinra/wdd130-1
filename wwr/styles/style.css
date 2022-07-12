@@ -25,6 +25,7 @@ font-family: 'Source Sans Pro', sans-serif; */
     margin-top: 50px;
     border-radius: 5px;
     text-decoration: none;
+    background-color: aliceblue;
 }
 
 .card-img {
@@ -101,6 +102,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 .msg {
     grid-column: 6/10;
     grid-row: 6/7;
+    
 }
 
 
@@ -233,6 +235,45 @@ footer {
 footer .social img {
     padding-top: 15px;
 }
+
+/* CSS code for page 2*/
+
+.page2-title {
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.card2-img {
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.card2-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.rapples-card {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.msg1 {
+    
+    background-color: #dad9e1;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
